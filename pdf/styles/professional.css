@@ -1,1 +1,155 @@
-/* Style preset placeholder */
+/* Professional Document Style - Business-friendly formatting */
+@media print {
+  /* Professional typography */
+  body {
+    font-family: 'Arial', 'Helvetica', sans-serif !important;
+    font-size: 11pt !important;
+    line-height: 1.4 !important;
+    color: #000 !important;
+    background: white !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Page layout */
+  @page {
+    margin: 1in !important;
+    size: letter !important;
+  }
+
+  /* Remove unnecessary elements */
+  nav, header, footer, aside, .sidebar, .menu, .navigation,
+  .header, .footer, .ads, .advertisement, .social, .share,
+  .comments, .related, .recommended, .popup, .modal {
+    display: none !important;
+  }
+
+  /* Professional content layout */
+  main, article, .content, .article-content, .post-content {
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+
+  /* Professional headings */
+  h1, h2, h3, h4, h5, h6 {
+    color: #000 !important;
+    font-weight: bold !important;
+    margin: 18pt 0 12pt 0 !important;
+    page-break-after: avoid !important;
+    font-family: 'Arial', 'Helvetica', sans-serif !important;
+  }
+
+  h1 { 
+    font-size: 16pt !important; 
+    text-align: center !important;
+    border-bottom: 2px solid #000 !important;
+    padding-bottom: 6pt !important;
+  }
+  h2 { 
+    font-size: 14pt !important; 
+    border-bottom: 1px solid #666 !important;
+    padding-bottom: 3pt !important;
+  }
+  h3 { font-size: 12pt !important; }
+  h4, h5, h6 { 
+    font-size: 11pt !important; 
+    font-weight: bold !important;
+  }
+
+  /* Professional paragraphs */
+  p {
+    margin: 8pt 0 !important;
+    text-align: left !important;
+    text-indent: 0 !important;
+  }
+
+  /* Professional lists */
+  ul, ol {
+    margin: 8pt 0 !important;
+    padding-left: 24pt !important;
+  }
+
+  li {
+    margin: 3pt 0 !important;
+  }
+
+  /* Professional images */
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    margin: 12pt auto !important;
+    border: 1px solid #ddd !important;
+    padding: 6pt !important;
+    page-break-inside: avoid !important;
+  }
+
+  /* Professional code blocks */
+  pre, code {
+    font-family: 'Courier New', monospace !important;
+    font-size: 9pt !important;
+    background: #f8f8f8 !important;
+    border: 1px solid #ccc !important;
+    padding: 8pt !important;
+    margin: 8pt 0 !important;
+    page-break-inside: avoid !important;
+  }
+
+  /* Professional links */
+  a {
+    color: #000 !important;
+    text-decoration: none !important;
+  }
+
+  a:after {
+    content: " (" attr(href) ")" !important;
+    font-size: 9pt !important;
+    color: #666 !important;
+  }
+
+  /* Professional tables */
+  table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    margin: 12pt 0 !important;
+    page-break-inside: avoid !important;
+    border: 2px solid #000 !important;
+  }
+
+  th, td {
+    border: 1px solid #000 !important;
+    padding: 6pt !important;
+    text-align: left !important;
+    vertical-align: top !important;
+  }
+
+  th {
+    background: #f0f0f0 !important;
+    font-weight: bold !important;
+    text-align: center !important;
+  }
+
+  /* Professional blockquotes */
+  blockquote {
+    margin: 12pt 24pt !important;
+    padding: 6pt 12pt !important;
+    border-left: 4px solid #ccc !important;
+    font-style: italic !important;
+    background: #f9f9f9 !important;
+  }
+
+  /* Page breaks */
+  .page-break {
+    page-break-before: always !important;
+  }
+
+  /* Remove animations and transitions */
+  * {
+    animation: none !important;
+    transition: none !important;
+    box-shadow: none !important;
+  }
+}

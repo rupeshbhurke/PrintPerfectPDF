@@ -1,0 +1,34 @@
+/* Base rules that always apply while printing */
+@media print {
+  /* Restore overflow & ensure visibility */
+  html, body {
+    overflow: visible !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: static !important;
+  }
+
+  /* Restore main content visibility */
+  main, article, #main-content, .article, .main {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+
+  /* Un-hide elements suppressed in print */
+  [style*="display:none"], [hidden] {
+    display: block !important;
+  }
+
+  /* Remove sticky positioning for print */
+  * {
+    position: static !important;
+  }
+
+  /* Strip all site-defined print-specific CSS */
+  link[rel="stylesheet"][media="print"],
+  style[media="print"] {
+    display: none !important;
+  }
+}

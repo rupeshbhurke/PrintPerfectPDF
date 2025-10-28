@@ -1,1 +1,114 @@
-/* Style preset placeholder */
+/* Clean Reading Style - Optimized for articles and documentation */
+@media print {
+  /* Clean typography */
+  body {
+    font-family: 'Georgia', 'Times New Roman', serif !important;
+    font-size: 12pt !important;
+    line-height: 1.6 !important;
+    color: #000 !important;
+    background: white !important;
+  }
+
+  /* Remove unnecessary elements */
+  nav, header, footer, aside, .sidebar, .menu, .navigation,
+  .header, .footer, .ads, .advertisement, .social, .share,
+  .comments, .related, .recommended, .popup, .modal {
+    display: none !important;
+  }
+
+  /* Focus on main content */
+  main, article, .content, .article-content, .post-content {
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 20pt !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+
+  /* Clean headings */
+  h1, h2, h3, h4, h5, h6 {
+    color: #000 !important;
+    font-weight: bold !important;
+    margin: 20pt 0 10pt 0 !important;
+    page-break-after: avoid !important;
+  }
+
+  h1 { font-size: 18pt !important; }
+  h2 { font-size: 16pt !important; }
+  h3 { font-size: 14pt !important; }
+  h4, h5, h6 { font-size: 12pt !important; }
+
+  /* Paragraphs */
+  p {
+    margin: 10pt 0 !important;
+    text-align: justify !important;
+    orphans: 3 !important;
+    widows: 3 !important;
+  }
+
+  /* Lists */
+  ul, ol {
+    margin: 10pt 0 !important;
+    padding-left: 20pt !important;
+  }
+
+  li {
+    margin: 5pt 0 !important;
+  }
+
+  /* Images */
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    margin: 10pt auto !important;
+    page-break-inside: avoid !important;
+  }
+
+  /* Code blocks */
+  pre, code {
+    font-family: 'Courier New', monospace !important;
+    font-size: 10pt !important;
+    background: #f5f5f5 !important;
+    border: 1px solid #ddd !important;
+    padding: 10pt !important;
+    margin: 10pt 0 !important;
+    page-break-inside: avoid !important;
+  }
+
+  /* Links */
+  a {
+    color: #000 !important;
+    text-decoration: underline !important;
+  }
+
+  /* Tables */
+  table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    margin: 10pt 0 !important;
+    page-break-inside: avoid !important;
+  }
+
+  th, td {
+    border: 1px solid #ddd !important;
+    padding: 5pt !important;
+    text-align: left !important;
+  }
+
+  th {
+    background: #f0f0f0 !important;
+    font-weight: bold !important;
+  }
+
+  /* Page breaks */
+  .page-break {
+    page-break-before: always !important;
+  }
+
+  /* Remove animations and transitions */
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}

@@ -27,5 +27,14 @@
   ],
   "background": {
     "service_worker": "background.js"
-  }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "pdf/styles/*.css",
+        "pdf/renderer.js"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
 }
