@@ -17,15 +17,19 @@
 ## 🛠️ Installation
 
 ### From Chrome Web Store (Recommended)
+
 1. Visit the [Chrome Web Store](https://chrome.google.com/webstore) (link coming soon)
 2. Click "Add to Chrome"
 3. Confirm installation
 
 ### Manual Installation (Development)
+
 1. Clone this repository:
+
    ```bash
    git clone https://github.com/yourusername/PrintPerfectPDF.git
    ```
+
 2. Open Chrome and navigate to `chrome://extensions/`
 3. Enable "Developer mode" (toggle in top right)
 4. Click "Load unpacked" and select the project folder
@@ -44,23 +48,26 @@
 ## 🎨 Style Options
 
 ### Clean Reading
+
 - Simplified layout focused on text readability
 - Removes distracting elements
 - Optimized for articles and documentation
 
 ### Professional Document
+
 - Business-friendly formatting
 - Consistent typography and spacing
 - Perfect for reports and formal documents
 
 ### Magazine Style
+
 - Preserves visual elements and images
 - Rich formatting with enhanced layouts
 - Ideal for content-heavy pages
 
 ## 🏗️ Project Structure
 
-```
+```text
 PrintPerfectPDF/
 ├── manifest.json          # Extension configuration
 ├── background.js           # Service worker for extension logic
@@ -86,20 +93,24 @@ PrintPerfectPDF/
 ## 🔧 Development
 
 ### Prerequisites
+
 - Google Chrome browser
 - Basic knowledge of JavaScript, HTML, and CSS
 - Chrome Extensions development familiarity
 
 ### Setup
+
 1. Clone the repository
 2. Make your changes to the codebase
 3. Load the extension in Chrome developer mode
 4. Test your changes on various websites
 
 ### Building
+
 This extension uses Manifest V3 and doesn't require a build process. Simply load the unpacked extension in Chrome.
 
 ### Testing
+
 1. Load the extension in developer mode
 2. Navigate to different types of websites
 3. Test each style preset
@@ -150,4 +161,4 @@ If you encounter any issues or have questions:
 
 ---
 
-**Made with ❤️ for better web-to-PDF conversion**
+Made with ❤️ for better web-to-PDF conversion
