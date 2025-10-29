@@ -42,8 +42,8 @@
   p {
     margin: 10pt 0 !important;
     text-align: justify !important;
-    orphans: 3 !important;
-    widows: 3 !important;
+    /* orphans: 3 !important; */ /* Not supported in Firefox */
+    /* widows: 3 !important; */ /* Not supported in Firefox */
   }
 
   /* Lists */
